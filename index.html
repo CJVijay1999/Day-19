@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grid Layout</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </head>
+  <body>
+    <div class="dash grid grid-flow-col md:grid-flow">
+      <header class="header text-white text-xl font-bold bg-gray-500 flex items-center rounded-md">
+        <h2 class="text-center">Dashboard Header</h2>
+        
+      </header>
+      <aside class="sidebar bg-gray-300 text-black text-xl rounded-md">
+        <h3 class="font-bold text-xl text-center">Sidebar Navigation</h3>
+        <ul class="text-center">
+          <li>Home</li>
+          <li>Profile</li>
+          <li>Settings</li>
+        </ul>
+      </aside>
+        <main class="main grid grid-flow-col md:grid-flow-col gap-4 flex items-center">
+          <div class="card bg-white rounded text-center ">
+            <img src="./assets/images/dragon.webp" alt="Dragon">
+            <p class="text-center">Dragon is the name of a mythical creature in Japanese folklore</p>
+          </div>
+          <div class="card bg-white rounded text-center">
+            <img src="./assets/images/Dragon Ball Super' Goku Ultra Instinct Mastered.avif" alt="Ultra Instinct">
+            <p>Goku he is the main character of the Dragon Ball series </p>
+          </div>
+          <div class="card bg-white rounded text-center">
+            <img src="./assets/images/Jackie Chan.jpeg" alt="Jackie Chan">
+            <p class="text-center">One of my favorite actors in the world</p>
+          </div>
+          <div class="card bg-white rounded text-center">
+            <img src="./assets/images/Nikon Zfc Mirrorless Camera.jpg" alt="Camera">
+            <p class="text-center">Nikon Zfc Mirrorless Camera</p>
+          </div>
+          <div class="card bg-white rounded text-center">
+            <img src="./assets/images/Lord shiva.jpg" alt="Lord shiva" height="70px">
+            <p class="text-center">My Load Shiva</p>
+          </div>
+          <div class="card bg-white rounded text-center">
+            <img src="./assets/images/Beautiful Rural Village Mountain Nature Anime.jpg" alt="Beautiful Rural Village">
+            <p class="text-center">Love Rural Village</p>
+        </main>
+        <footer class="footer text-white text-xl font-bold bg-gray-500 flex items-center justify-center rounded-md">DashBoard Footer</footer>
+    </div>
+
+    <script src="./assets/js/script.js"></script>
+  </body>
+</html>

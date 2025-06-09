@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", sans-serif;
+}
+
+.dash {
+  padding: 10px;
+  margin: 10px;
+  grid-template-areas: "header header" "sidebar main" "footer footer";
+  grid-template-rows: 60px 1fr 50px;
+  grid-template-columns: 250px 1fr;
+  height: 100vh;
+}
+
+.header {
+  grid-area: header;
+  padding: 0 20px;
+}
+
+.sidebar {
+  grid-area: sidebar;
+  padding: 20px;
+}
+
+.main {
+  grid-area: main;
+  padding: 20px;
+}
+
+.card {
+
+  padding: 20px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+.card img {
+  padding: 10px;
+  width: 200px;
+  height: 200px;
+
+}
+
+.footer {
+  grid-area: footer;
+  padding: 20px;
+}
